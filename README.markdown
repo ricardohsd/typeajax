@@ -1,6 +1,6 @@
 # Typeajax
 
-A basic, easily extended plugin for quickly creating elegant AJAX autocompletes any form text input built on top of [Bootstrap Typead](http://twitter.github.io/bootstrap/javascript.html#typeahead).
+A basic, easily extended plugin for quickly creating elegant AJAX autocompletes any form text input built on top of [Bootstrap Typeahead](http://twitter.github.io/bootstrap/javascript.html#typeahead).
 
 The main difference of typeajax is the feedback on every stage of the search, which basically all other autocomplete plugins does not provide natively.
 
