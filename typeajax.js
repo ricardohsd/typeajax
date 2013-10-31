@@ -87,6 +87,11 @@
     highlighter: function (item) {
       item = JSON.parse(item);
 
+      // Do not highlight loading, not found and error states.
+      if (!item.id) {
+        return item.value;
+      }
+
       var query = this.query.replace(/[\-\[\]{}()*+?.,\\\^$|#\s]/g, '\\$&');
 
       return item.value.replace(new RegExp('(' + query + ')', 'ig'), function ($1, match) {
