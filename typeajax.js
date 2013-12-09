@@ -103,6 +103,7 @@
       item = JSON.parse(item);
 
       this.$hidden.val(item.id);
+      this.$hidden.trigger('typeajax:after-update', item);
 
       return item.value;
     },
